@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/*产品服务*/
+.jst_pro_banner {
+  width: 100%;
+  height: 180px;
+  box-sizing: border-box;
+  background: url(../images/product/banner_bg.jpg) no-repeat 100% 100%;
+}
+
+.jst_banner {
+  padding: 122px 0 30px;
+  box-sizing: border-box;
+}
+.jst_banner i {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  background: url(../images/product/bannerIcon1.jpg) no-repeat 100% 100%;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.jst_banner span {
+  font-size: 24px;
+  color: #333333;
+  line-height: 30px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/*tab切换*/
+.jst_pro_tabsBox {
+  width: 100%;
+  height: 364px;
+  box-sizing: border-box;
+  color: #fff;
+  background: -webkit-linear-gradient(left, #f5ac11 50%, #3943c6 50%);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #f5ac11 50%, #3943c6 50%);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #f5ac11 50%, #3943c6 50%);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #f5ac11 50%, #3943c6 50%);
+  /* 标准的语法（必须放在最后） */
+}
+.jst_pro_tabsBox .jst_box {
+  position: relative;
+  height: 364px;
+  box-sizing: border-box;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_business {
+  width: 200px;
+  height: 364px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 100px;
+  background: #f5ac11;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_business i {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../images/product/businessIcon.png) no-repeat 100% 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_community {
+  width: 200px;
+  height: 364px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 100px;
+  background: #fa7b26;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  z-index: 100;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_community i {
+  display: inline-block;
+  width: 134px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../images/product/parkIcon.png) no-repeat 100% 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_community:hover {
+  width: 280px;
+  left: 120px;
+  z-index: 110;
+  transition: all 0.3s;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_park {
+  width: 200px;
+  height: 364px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 100px;
+  background: #27ba79;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  z-index: 100;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_park i {
+  display: inline-block;
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../images/product/communityIcon.png) no-repeat 100% 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_park:hover {
+  width: 280px;
+  left: 320px;
+  z-index: 110;
+  transition: all 0.3s;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_platform {
+  width: 200px;
+  height: 364px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 100px;
+  background: #367fec;
+  position: absolute;
+  top: 0;
+  left: 600px;
+  z-index: 100;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_platform i {
+  display: inline-block;
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../images/product/platformIcon.png) no-repeat 100% 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_platform:hover {
+  width: 280px;
+  left: 520px;
+  z-index: 110;
+  transition: all 0.3s;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_jst {
+  width: 200px;
+  height: 364px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 100px;
+  background: #2e38b9;
+  position: absolute;
+  top: 0;
+  left: 800px;
+  z-index: 100;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_jst i {
+  display: inline-block;
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../images/product/jstIcon.png) no-repeat 100% 100%;
+}
+
+/*tab*/
+.jst_pro_tabListBox .jst_pro_tabTitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.jst_pro_tabListBox .jst_pro_tabList {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/*tab选中提示*/
+.jst_pro_pointerBox {
+  width: 100%;
+  box-sizing: border-box;
+}
+.jst_pro_pointerBox .jst_box {
+  height: 146px;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #d1d1d1;
+}
+.jst_pro_pointerBox .jst_box .jst_pro_bigTitle i {
+  display: inline-block;
+  width: 34px;
+  height: 25px;
+}
+
+/*tab信息展示*/
+
+/*# sourceMappingURL=product.css.map */
