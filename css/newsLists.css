@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*banner*/
+.jst_news_banner {
+  background: url(../images/news/banner_bg.png) no-repeat 100% 100%;
+  height: 180px;
+}
+.jst_news_banner .jst_box {
+  height: 100%;
+  position: relative;
+}
+.jst_news_banner .jst_box h2 {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+}
+.jst_news_banner .jst_box h2 i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../images/news/newsLogo.png) no-repeat 100% 100%;
+  vertical-align: middle;
+}
+.jst_news_banner .jst_box h2 span {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+/*新闻列表*/
+.jst_news_newsListsBox .jst_box .jst_news_newsLists {
+  padding: 10px 0;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem {
+  margin-top: 30px;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsImg {
+  float: left;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsImg img {
+  width: 248px;
+  height: 168px;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsContent {
+  float: right;
+  width: 702px;
+  height: 168px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsContent .jst_news_newsBox {
+  padding: 24px 0;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsContent .jst_news_newsBox .jst_news_newsTitle {
+  color: #333333;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsContent .jst_news_newsBox .jst_news_newsMes {
+  color: #858585;
+  font-size: 16px;
+  line-height: 30px;
+}
+.jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem:after {
+  content: " ";
+  height: 0;
+  overflow: hidden;
+  display: block;
+  clear: both;
+}
+.jst_news_newsListsBox .jst_box .jst_news_topageBox {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 66px;
+  margin-top: 20px;
+}
+.jst_news_newsListsBox .jst_box .jst_news_topageBox .jst_news_topage {
+  width: 670px;
+  margin: 0 auto;
+}
+.jst_news_newsListsBox .jst_box .jst_news_topageBox .jst_news_topage .page {
+  float: left;
+  font-size: 12px;
+  margin-left: 12px;
+  color: #575757;
+  line-height: 30px;
+  padding: 0 6px;
+  border: 1px solid #c1c1c1;
+}
+.jst_news_newsListsBox .jst_box .jst_news_topageBox .jst_news_topage .pageNum {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+.jst_news_newsListsBox .jst_box .jst_news_topageBox .jst_news_topage .pageOn {
+  color: #ffffff;
+  background: #ffba00;
+  border: 1px solid #eca128;
+}
+.jst_news_newsListsBox .jst_box .jst_news_topageBox .jst_news_topage:after {
+  content: " ";
+  height: 0;
+  overflow: hidden;
+  display: block;
+  clear: both;
+}
+
+/*# sourceMappingURL=newsLists.css.map */

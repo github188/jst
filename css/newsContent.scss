@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*banner*/
+
+.jst_newsDetals_banner{
+	background:url(../images/news/banner_bg.png) no-repeat 100% 100%;
+	height:180px;
+	.jst_box{
+		height: 100%;
+		position:relative;
+		h2{
+			position:absolute;
+			bottom: 30px;
+			left:0;
+			i{
+				display: inline-block;
+				width:20px;
+				height:20px;
+				background:url(../images/news/newsLogo1.png) no-repeat 100% 100%;
+				vertical-align: middle;
+				margin-right:6px;
+			}
+			a{
+				display: inline-block;
+				margin:0 6px;
+				font-size:14px;
+				font-weight: bold;
+				color:#333333;
+				line-height: 30px;
+				vertical-align: middle;
+			}
+		}
+	}
+}
