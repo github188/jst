@@ -31,3 +31,129 @@
 		}
 	}
 }
+
+/*内容*/
+.jst_newsDetals_contentBox{
+	.jst_box{
+		padding-top:52px;
+		.jst_news_date{
+			background:url(../images/news/date_bg.png) no-repeat 100% 100%;
+			width:87px;
+			height:74px;
+			float:left;
+			
+			b{
+				display:inline-block;
+				margin-left:10px;
+				margin-top:6px;
+				font-size:32px;
+				line-height:40px;
+				font-weight:bold;
+				color:#ffffff
+			}
+			p{
+				margin-left:10px;
+				font-size:12px;
+				color:#ffffff
+			}
+		}
+		.jst_news_contentBox{
+			width:780px;
+			float:left;
+			margin-left:24px;
+			.jst_news_bigTitle{
+				h2{
+					font-size:24px;
+					font-weight:bold;
+					color:#333333;
+				}
+				p{
+					font-size:12px;
+					color:#858585;
+					line-height:52px;
+					i{
+						font-style:normal;
+					}
+				}
+			}
+			.jst_news_img{
+				width:604px;
+				height:324px;
+				margin-bottom:18px;
+			}
+			.jst_news_title{
+				color:#4d4d4d;
+				font-size:16px;
+				line-height:30px;
+			}
+			.jst_news_content{
+				padding-bottom:46px;
+				border-bottom:1px solid #dfdfdf;
+				.jst_news_articleBox{
+					.jst_news_article{
+						.jst_news_smallTitle{
+							color:#4d4d4d;
+							font-size:16px;
+							font-weight:bold;
+							line-height:80px;
+						}
+						.jst_pro_smallContent{
+							color:#4d4d4d;
+							font-size:16px;
+							line-height:30px;
+						}
+					}
+				}
+			}
+			.jst_news_others{
+				padding-top:32px;
+				padding-bottom:60px;
+				position:relative;
+				.jst_news_pre{
+					line-height:32px;
+					font-size:16px;
+					color:#333333;
+					i{
+						font-style:normal;
+						font-weight:bold;
+					}
+					span{
+
+					}
+				
+				}
+				.jst_news_next{
+					line-height:32px;
+					font-size:16px;
+					color:#333333;
+					i{
+						font-style:normal;
+						font-weight:bold;
+					}
+					span{
+					
+					}
+				
+				}
+				a{
+					position:absolute;
+					right:0;
+					bottom:60px;
+					font-size:12px;
+					color:#333333;
+					i{
+						display:inline-block;
+					
+					}
+				}
+			}
+		}
+	}
+	.jst_box:after{
+		content: " ";
+		height:0;
+		overflow: hidden;
+		display: block;
+		clear:both;
+	}
+}
