@@ -6,7 +6,10 @@
 	width:100%;
 	height:180px;
 	box-sizing:border-box;
-	background:url(../images/product/banner_bg.jpg) no-repeat 100% 100%;	
+	background-image:url(../images/product/banner_bg.jpg);	
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
 }
 .jst_banner{
 	padding:122px 0 30px;
@@ -16,7 +19,10 @@
 		box-sizing:border-box;
 		width:30px;
 		height:30px;
-		background:url(../images/product/bannerIcon1.jpg) no-repeat 100% 100%;
+		background-image:url(../images/product/bannerIcon1.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
 		vertical-align: middle;
 		margin-right:12px;
 	}
@@ -45,7 +51,7 @@
     	height:364px;
     	box-sizing:border-box;
     	.jst_pro_business{
-			width:200px;
+			width:20%;
 			height:364px;
 			box-sizing:border-box;
 			padding-left:40px;
@@ -62,11 +68,14 @@
 				position:absolute;
 				bottom:0;
 				right:0;
-				background:url(../images/product/businessIcon.png) no-repeat 100% 100%;
+				background-image:url(../images/product/businessIcon.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 		}
 		.jst_pro_community{
-			width:200px;
+			width:20%;
 			height:364px;
 			box-sizing:border-box;
 			padding-left:40px;
@@ -74,7 +83,7 @@
 			background:#fa7b26;
 			position:absolute;
 			top:0;
-			left:200px;
+			left:20%;
 			z-index: 100;
 			i{
 				display: inline-block;
@@ -83,17 +92,20 @@
 				position:absolute;
 				bottom:0;
 				right:0;
-				background:url(../images/product/parkIcon.png) no-repeat 100% 100%;
+				background-image:url(../images/product/parkIcon.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 		}
 		.jst_pro_communityOn{
-			width:280px;
-			left:120px;
+			width:28%;
+			left:12%;
 			z-index: 110;
 			transition: all 0.3s;
 		}
 		.jst_pro_park{
-			width:200px;
+			width:20%;
 			height:364px;
 			box-sizing:border-box;
 			padding-left:40px;
@@ -101,7 +113,7 @@
 			background:#27ba79;
 			position:absolute;
 			top:0;
-			left:400px;
+			left:40%;
 			z-index: 100;
 			i{
 				display: inline-block;
@@ -110,17 +122,20 @@
 				position:absolute;
 				bottom:0;
 				right:0;
-				background:url(../images/product/communityIcon.png) no-repeat 100% 100%;
+				background-image:url(../images/product/communityIcon.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 		}
 		.jst_pro_parkOn{
-			width:280px;
-			left:320px;
+			width:28%;
+			left:32%;
 			z-index: 110;
 			transition: all 0.3s;
 		}
 		.jst_pro_platform{
-			width:200px;
+			width:20%;
 			height:364px;
 			box-sizing:border-box;
 			padding-left:40px;
@@ -128,7 +143,7 @@
 			background:#367fec;
 			position:absolute;
 			top:0;
-			left:600px;
+			left:60%;
 			z-index: 100;
 			i{
 				display: inline-block;
@@ -137,17 +152,20 @@
 				position:absolute;
 				bottom:0;
 				right:0;
-				background:url(../images/product/platformIcon.png) no-repeat 100% 100%;
+				background-image:url(../images/product/platformIcon.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 		}
 		.jst_pro_platformOn{
-			width:280px;
-			left:520px;
+			width:28%;
+			left:52%;
 			z-index: 110;
 			transition: all 0.3s;
 		}
 		.jst_pro_jst{
-			width:200px;
+			width:20%;
 			height:364px;
 			box-sizing:border-box;
 			padding-left:40px;
@@ -155,7 +173,7 @@
 			background:#2e38b9;
 			position:absolute;
 			top:0;
-			left:800px;
+			left:80%;
 			z-index: 100;
 			i{
 				display: inline-block;
@@ -164,7 +182,10 @@
 				position:absolute;
 				bottom:0;
 				right:0;
-				background:url(../images/product/jstIcon.png) no-repeat 100% 100%;
+				background-image:url(../images/product/jstIcon.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 		}
     }
@@ -202,7 +223,10 @@
 					box-sizing:border-box;
 					width:34px;
 					height:34px;
-					background:url(../images/product/b_pointer.png) no-repeat 100% 100%;
+					background-image:url(../images/product/b_pointer.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;
 					position:absolute;
 					top:-64px;
 					left:83px;
@@ -214,7 +238,10 @@
 					display: none;
 					width:34px;
 					height:34px;
-					background:url(../images/product/b_pointer2.png) no-repeat 100% 100%;
+					background-image:url(../images/product/b_pointer2.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;
 					position:absolute;
 					top:-64px;
 					left:283px;
@@ -227,7 +254,10 @@
 					display: none;
 					width:34px;
 					height:34px;
-					background:url(../images/product/b_pointer5.png) no-repeat 100% 100%;
+					background-image:url(../images/product/b_pointer5.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;
 					position:absolute;
 					top:-64px;
 					left:483px;
@@ -240,7 +270,10 @@
 					display: none;
 					width:34px;
 					height:34px;
-					background:url(../images/product/b_pointer4.png) no-repeat 100% 100%;
+					background-image:url(../images/product/b_pointer4.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;					
 					position:absolute;
 					top:-64px;
 					left:683px;
@@ -253,7 +286,10 @@
 					display: none;
 					width:34px;
 					height:34px;
-					background:url(../images/product/b_pointer3.png) no-repeat 100% 100%;
+					background-image:url(../images/product/b_pointer3.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;					
 					position:absolute;
 					top:-64px;
 					left:883px;
@@ -268,33 +304,51 @@
 				width:34px;
 				height:25px;
 				box-sizing:border-box;
-				background:url(../images/product/b_titleIcon1.png) no-repeat 100% 100%;
+				background-image:url(../images/product/b_titleIcon1.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 				vertical-align: middle;
 			}
 			.icon1{
 				width:38px;
 				height:25px;
-				background:url(../images/product/b_titleIcon1.png) no-repeat 100% 100%;
+				background-image:url(../images/product/b_titleIcon1.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;				
 			}
 			.icon2{
 				width:34px;
 				height:25px;
-				background:url(../images/product/b_titleIcon.png) no-repeat 100% 100%;
+				background-image:url(../images/product/b_titleIcon.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 			.icon3{
 				width:30px;
 				height:31px;
-				background:url(../images/product/b_titleIcon2.png) no-repeat 100% 100%;
+				background-image:url(../images/product/b_titleIcon2.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 			.icon4{
 				width:32px;
 				height:27px;
-				background:url(../images/product/b_titleIcon3.png) no-repeat 100% 100%;
+				background-image:url(../images/product/b_titleIcon3.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 			.icon5{
 				width:32px;
 				height:30px;
-				background:url(../images/product/b_titleIcon4.png) no-repeat 100% 100%;
+				background-image:url(../images/product/b_titleIcon4.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 			}
 			span{
 				display: inline-block;
@@ -338,7 +392,10 @@
 			width:100%;
 			height:520px;
 			box-sizing:border-box;
-			background:url(../images/product/b_scene_bg.png) no-repeat 100% 100%;
+			background-image:url(../images/product/b_scene_bg.png);
+			background-position:center;
+			background-repeat:no-repeat;
+			background-size:100% 100%;
 			.jst_pro_content{
 				position:relative;
 				.jst_pro_fiveFun{
@@ -457,7 +514,10 @@
 					left:210px;
 					z-index: 200;
 					.jst_pro_tipsBox{
-						background:url(../images/product/b_tipsBox1.png) no-repeat 100% 100%;
+						background-image:url(../images/product/b_tipsBox1.png);
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:100% 100%;
 						width:189px;
 						height: 96px;
 						box-sizing:border-box;	
@@ -475,7 +535,10 @@
 					right:224px;
 					z-index: 200;
 					.jst_pro_tipsBox{
-						background:url(../images/product/b_tipsBox3.png) no-repeat 100% 100%;
+						background-image:url(../images/product/b_tipsBox3.png);
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:100% 100%;
 						width:189px;
 						height: 96px;
 						box-sizing:border-box;
@@ -496,7 +559,10 @@
 					left:210px;
 					z-index: 200;
 					.jst_pro_tipsBox{
-						background:url(../images/product/b_tipsBox2.png) no-repeat 100% 100%;
+						background-image:url(../images/product/b_tipsBox2.png);
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:100% 100%;
 						width:189px;
 						height: 96px;
 						box-sizing:border-box;
@@ -517,7 +583,10 @@
 					right:224px;
 					z-index: 200;
 					.jst_pro_tipsBox{
-						background:url(../images/product/b_tipsBox4.png) no-repeat 100% 100%;
+						background-image:url(../images/product/b_tipsBox4.png);
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:100% 100%;
 						width:189px;
 						height: 96px;
 						box-sizing:border-box;	
@@ -531,7 +600,10 @@
 				.jst_pro_center{
 					width:232px;
 					height:230px;
-					background:url(../images/product/center_bg.png) no-repeat 100% 100%;
+					background-image:url(../images/product/center_bg.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;
 					border-radius:50%;
 					position:absolute;
 					top:230px;
@@ -555,7 +627,10 @@
 				position:relative;
 				width:100%;
 				height:490px;
-				background:url(../images/product/value_bg.png) no-repeat 100% 100%;
+				background-image:url(../images/product/value_bg.png);
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100% 100%;
 				.jst_pro_value1{
 					width: 296px;
 					font-size: 14px;
@@ -633,7 +708,10 @@
 		.jst_box{
 			.jst_pro_list{
 				.jst_pro_content{
-					background:url(../images/product/value_bg2.png) no-repeat 100% 100%;
+					background-image:url(../images/product/value_bg2.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;
 
 					.jst_pro_value1{
 						top:80px;
@@ -772,7 +850,10 @@
 		.jst_box{
 			.jst_pro_list{
 				.jst_pro_content{
-					background:url(../images/product/value_bg3.png) no-repeat 100% 100%;
+					background-image:url(../images/product/value_bg3.png);
+					background-position:center;
+					background-repeat:no-repeat;
+					background-size:100% 100%;
 					height:412px;
 					.jst_pro_value1{
 						width:226px;
@@ -820,7 +901,10 @@
 						height: 372px;
 						width: 372px;
 						margin-left:-186px;
-						background:url(../images/product/round1.png) no-repeat 100% 100%;
+						background-image:url(../images/product/round1.png);
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:100% 100%;
 						.jst_pro_mRound{
 							position:absolute;
 							top: 50%;
@@ -829,7 +913,10 @@
 							width: 252px;
 							margin-top:-126px;
 							margin-left:-126px;
-							background:url(../images/product/bigPie.png) no-repeat 100% 100%;
+							background-image:url(../images/product/bigPie.png);
+							background-position:center;
+							background-repeat:no-repeat;
+							background-size:100% 100%;
 							text-align: center;
 							.jst_pro_platform_list{
 								color:#ffffff;
@@ -993,7 +1080,10 @@
 						left:700px;
 						width:110px;
 						height:140px;
-						background:url(../images/product/arrow2.png) no-repeat 100% 100%;
+						background-image:url(../images/product/arrow2.png);
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:100% 100%;
 					}
 					.jst_pro_arrowBox2{
 						position:absolute;
@@ -1001,7 +1091,10 @@
 						left:380px;
 						width:180px;
 						height:28px;
-						background:url(../images/product/arrow.png) no-repeat 100% 100%;
+						background-image:url(../images/product/arrow.png);
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:100% 100%;
 					}
 
 				}
