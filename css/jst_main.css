@@ -60,7 +60,7 @@ a{text-decoration:none;}
 */
 
 /*主页-新闻动态*/
-.jst_headnews{padding:50px 0px;background:url(../images/titbg1.jpg) no-repeat;}
+.jst_headnews{padding:50px 0px;background-image:url(../images/index/banner_bg.png);background-repeat:no-repeat;background-size: 100% 100%;}
 .jst_headnews .jst_headpic{width:36%;height:245px;display:block;overflow:hidden;float:left;}
 .jst_headnews .jst_headpic img{width:100%;height:auto;float:left;transition:transform 0.3s;}
 .jst_headnews .jst_headpic img:hover{transform:scale(1.1,1.1);}

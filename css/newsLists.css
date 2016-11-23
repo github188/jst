@@ -39,14 +39,15 @@
 }
 .jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsImg {
   float: left;
+  width: 24.8%;
 }
 .jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsImg img {
-  width: 248px;
+  width: 100%;
   height: 168px;
 }
 .jst_news_newsListsBox .jst_box .jst_news_newsLists .jst_news_newsItemBox .jst_news_newsItem .jst_news_newsContent {
   float: right;
-  width: 702px;
+  width: 70%;
   height: 168px;
   border-bottom: 1px solid #dfdfdf;
 }

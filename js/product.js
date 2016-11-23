@@ -133,6 +133,7 @@ $(function(){
 		//清除别的模块被选中状态
 		$(".jst_pro_community").removeClass("jst_pro_communityOn");
 		$(".jst_pro_park").removeClass("jst_pro_parkOn");
+		$(".jst_pro_platform").removeClass("jst_pro_platformOn");
 
 		$(".jst_pro_pointer1").removeClass("jst_pro_pointer1_On");
 		$(".jst_pro_pointer2").removeClass("jst_pro_pointer2_On");
