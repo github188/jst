@@ -1,0 +1,263 @@
+.jst_pro_ban {
+  width: 100%;
+  height: 1.8rem;
+  background-image: url(../new-images/product/banner_bg.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 0.12rem;
+}
+.jst_pro_ban .jst_box {
+  height: 100%;
+  position: relative;
+}
+.jst_pro_ban .jst_box .jst_pro_banTitle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.jst_pro_ban .jst_box .jst_pro_banTitle i {
+  display: inline-block;
+  width: 0.29rem;
+  height: 0.28rem;
+  background-image: url(../new-images/product/banner01.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 0.12rem;
+}
+.jst_pro_ban .jst_box .jst_pro_banTitle span {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.jst_pro_tabsBox {
+  width: 100%;
+  height: 3.97rem;
+  background-image: url(../new-images/product/tab_bg.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+.jst_pro_tabsBox .jst_box {
+  height: 100%;
+  position: relative;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_aTab {
+  width: 20%;
+  height: 100%;
+  position: relative;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_aTab .jst_pro_tabCon {
+  color: #FFFFFF;
+  position: absolute;
+  top: 1rem;
+  left: 0.4rem;
+  z-index: 100;
+  width: 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_aTab .jst_pro_tabCon dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_aTab .jst_pro_tabCon dd {
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_aTab i {
+  display: inline-block;
+  width: 1.39rem;
+  height: 0.94rem;
+  background-image: url(../new-images/product/businessIcon.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 2.7rem;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_bTab {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 2rem;
+  top: 0;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_bTab .jst_pro_tabCon {
+  color: #FFFFFF;
+  position: absolute;
+  top: 1rem;
+  left: 0.4rem;
+  z-index: 100;
+  width: 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_bTab .jst_pro_tabCon dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_bTab .jst_pro_tabCon dd {
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_bTab i {
+  display: inline-block;
+  width: 1.34rem;
+  height: 1rem;
+  background-image: url(../new-images/product/parkIcon.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 2.6rem;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_cTab {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 4rem;
+  top: 0;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_cTab .jst_pro_tabCon {
+  color: #FFFFFF;
+  position: absolute;
+  top: 1rem;
+  left: 0.4rem;
+  z-index: 100;
+  width: 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_cTab .jst_pro_tabCon dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_cTab .jst_pro_tabCon dd {
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_cTab i {
+  display: inline-block;
+  width: 1.12rem;
+  height: 1.12rem;
+  background-image: url(../new-images/product/communityIcon.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_dTab {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 6rem;
+  top: 0;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_dTab .jst_pro_tabCon {
+  color: #FFFFFF;
+  position: absolute;
+  top: 1rem;
+  left: 0.4rem;
+  z-index: 100;
+  width: 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_dTab .jst_pro_tabCon dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_dTab .jst_pro_tabCon dd {
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_dTab i {
+  display: inline-block;
+  width: 1.12rem;
+  height: 1.12rem;
+  background-image: url(../new-images/product/platformIcon.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_eTab {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 8rem;
+  top: 0;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_eTab .jst_pro_tabCon {
+  color: #FFFFFF;
+  position: absolute;
+  top: 1rem;
+  left: 0.4rem;
+  z-index: 100;
+  width: 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_eTab .jst_pro_tabCon dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_eTab .jst_pro_tabCon dd {
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_eTab i {
+  display: inline-block;
+  width: 1.12rem;
+  height: 1.12rem;
+  background-image: url(../new-images/product/jstIcon.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+}
+
+/*# sourceMappingURL=product.css.map */

@@ -1,11 +1,76 @@
-@charset:"utf-8";
+@charset "utf-8";
 
 .jst_index_ban{
 	background-image:url(../new-images/index/banner.jpg);
 	background-size:100% 100%;
 	background-repeat:no-repeat;
 	background-position:center;
+	width:100%;
+	height:6.8rem;
+	
 	.jst_box{
-
+	    position: relative;
+	    height: 100%;
+        .jst_index_banImg{
+            img{
+                width:9.9rem;
+                height:4.13rem;
+            }
+        }
+        .jst_index_navBox{
+            width:100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            .jst_index_navListBox{
+                width:100%;
+                .jst_index_navList{
+                    width:33%;
+                    a{
+                        display: block;
+                        margin: 0 auto;
+                        height:0.78rem;
+                        padding: 0.25rem 0;
+                        padding-left: 0.3rem;
+                        i{
+                           display:inline-block;
+                           width:0.61rem;
+                           height:0.41rem;
+                           background-image: url(../new-images/index/nav01.png);
+                           background-position: center;
+                           background-repeat: repeat;
+                           background-size: 100% 100%;
+                      
+                           margin-right: 0.1rem;
+                        }
+                        h2{
+                            width:2rem;
+                            height:0.42rem;      
+                            display: inline-block;
+                            span{
+                               display: block;
+                               font-size: 18px;
+                               font-weight: bold;
+                               color:#FFFFFF; 
+                            }
+                            em{
+                               width: 100%;
+                               display: block;
+                               font-size:11px;
+                               font-style: normal;
+                               color:#FFFFFF; 
+                               white-space: nowrap;
+                               overflow: hidden;
+                               text-overflow: ellipsis;
+                            }
+                        }
+                        &:hover{
+                            background:#1b234b;
+                        }
+                    }
+                    
+                }
+            }
+        }
 	}
 }

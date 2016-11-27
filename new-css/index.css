@@ -1,41 +1,71 @@
-/*
-Error: Invalid CSS after "@charset": expected string, was ":"utf-8";"
-        on line 1 of index.scss
+.jst_index_ban {
+  background-image: url(../new-images/index/banner.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 6.8rem;
+}
+.jst_index_ban .jst_box {
+  position: relative;
+  height: 100%;
+}
+.jst_index_ban .jst_box .jst_index_banImg img {
+  width: 9.9rem;
+  height: 4.13rem;
+}
+.jst_index_ban .jst_box .jst_index_navBox {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox {
+  width: 100%;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox .jst_index_navList {
+  width: 33%;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox .jst_index_navList a {
+  display: block;
+  margin: 0 auto;
+  height: 0.78rem;
+  padding: 0.25rem 0;
+  padding-left: 0.3rem;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox .jst_index_navList a i {
+  display: inline-block;
+  width: 0.61rem;
+  height: 0.41rem;
+  background-image: url(../new-images/index/nav01.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  margin-right: 0.1rem;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox .jst_index_navList a h2 {
+  width: 2rem;
+  height: 0.42rem;
+  display: inline-block;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox .jst_index_navList a h2 span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox .jst_index_navList a h2 em {
+  width: 100%;
+  display: block;
+  font-size: 11px;
+  font-style: normal;
+  color: #FFFFFF;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jst_index_ban .jst_box .jst_index_navBox .jst_index_navListBox .jst_index_navList a:hover {
+  background: #1b234b;
+}
 
-1: @charset:"utf-8";
-2: 
-3: .jst_index_ban{
-4: 	background-image:url(../new-images/index/banner.jpg);
-5: 	background-size:100% 100%;
-6: 	background-repeat:no-repeat;
-
-Backtrace:
-index.scss:1
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1105:in `expr!'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:486:in `charset_directive'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:222:in `special_directive'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:197:in `directive'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"@charset\": expected string, was \":\"utf-8\";\"\A         on line 1 of index.scss\A \A 1: @charset:\"utf-8\";\A 2: \A 3: .jst_index_ban{\A 4: 	background-image:url(../new-images/index/banner.jpg);\A 5: 	background-size:100% 100%;\A 6: 	background-repeat:no-repeat;"; }
+/*# sourceMappingURL=index.css.map */
