@@ -79,6 +79,9 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.jst_pro_tabsBox .jst_box .jst_pro_business:hover {
+  cursor: pointer;
+}
 .jst_pro_tabsBox .jst_box .jst_pro_community {
   width: 20%;
   height: 364px;
@@ -102,6 +105,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_community:hover {
+  cursor: pointer;
 }
 .jst_pro_tabsBox .jst_box .jst_pro_communityOn {
   width: 25%;
@@ -133,6 +139,9 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.jst_pro_tabsBox .jst_box .jst_pro_park:hover {
+  cursor: pointer;
+}
 .jst_pro_tabsBox .jst_box .jst_pro_parkOn {
   width: 25%;
   left: 35%;
@@ -163,6 +172,9 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.jst_pro_tabsBox .jst_box .jst_pro_platform:hover {
+  cursor: pointer;
+}
 .jst_pro_tabsBox .jst_box .jst_pro_platformOn {
   width: 25%;
   left: 55%;
@@ -192,6 +204,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+.jst_pro_tabsBox .jst_box .jst_pro_jst:hover {
+  cursor: pointer;
 }
 
 /*tab*/

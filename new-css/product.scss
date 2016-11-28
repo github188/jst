@@ -5,7 +5,7 @@
     height:1.8rem;
     background-image: url(../new-images/product/banner_bg.png);
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     vertical-align: middle;
     margin-right: 0.12rem;
@@ -22,14 +22,14 @@
                 height:0.28rem;
                 background-image: url(../new-images/product/banner01.png);
                 background-position: center;
-                background-repeat: repeat;
+                background-repeat: no-repeat;
                 background-size: 100% 100%;
                 vertical-align: middle;
                 margin-right: 0.12rem;
             }
             span{
                 display: inline-block;
-                font-size: 24px;
+                font-size: 0.24rem;
                 vertical-align: middle;
             }
         }
@@ -41,15 +41,17 @@
     height:3.97rem;
     background-image: url(../new-images/product/tab_bg.png);
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     .jst_box{
         height:100%;
         position: relative;
         .jst_pro_aTab{
-            width:20%;
+            width:2rem;
             height:100%;  
-            position: relative;         
+            position: relative;
+            overflow: hidden; 
+            background:#f5ac11;      
             .jst_pro_tabCon{
                 color:#FFFFFF;
                 position: absolute;
@@ -58,7 +60,7 @@
                 z-index: 100;
                 width: 100%;
                 dt{
-                   font-size: 20px; 
+                   font-size: 0.2rem; 
                    font-weight: bold;
                    margin-bottom: 0.3rem;
                    width: 100%;
@@ -67,7 +69,7 @@
                    text-overflow: ellipsis;
                 }
                 dd{
-                  font-size: 14px;
+                  font-size: 0.14rem;
                   width: 100%;
                   white-space: nowrap;
                   overflow: hidden;
@@ -80,19 +82,24 @@
                 height: 0.94rem;
                 background-image: url(../new-images/product/businessIcon.png);
                 background-position: center;
-                background-repeat: repeat;
+                background-repeat: no-repeat;
                 background-size: 100% 100%;
                 position: absolute;
-                right: 0;
-                top: 2.7rem;
+                right: 0.1rem;
+                bottom: 0;
+            }
+            &:hover{
+              cursor: pointer;
             }
         }
         .jst_pro_bTab{
-            width:20%;
+            width:2rem;
             height:100%;
             position: absolute;
             left:2rem;
-            top:0;           
+            top:0;  
+            overflow: hidden; 
+            background:#fa7b26;         
             .jst_pro_tabCon{
                 color:#FFFFFF;
                 position: absolute;
@@ -101,7 +108,7 @@
                 z-index: 100;
                 width: 100%;
                 dt{
-                   font-size: 20px; 
+                   font-size: 0.2rem; 
                    font-weight: bold;
                    margin-bottom: 0.3rem;
                    width: 100%;
@@ -110,7 +117,7 @@
                    text-overflow: ellipsis;
                 }
                 dd{
-                  font-size: 14px;
+                  font-size: 0.14rem;
                   width: 100%;
                   white-space: nowrap;
                   overflow: hidden;
@@ -119,23 +126,33 @@
             }
             i{
                 display:inline-block;
-                width: 1.34rem;
-                height: 1rem;
+                width: 1.27rem;
+                height: 0.93rem;
                 background-image: url(../new-images/product/parkIcon.png);
                 background-position: center;
-                background-repeat: repeat;
+                background-repeat: no-repeat;
                 background-size: 100% 100%;
                 position: absolute;
-                right: 0;
-                top: 2.6rem;
+                right: 0.1rem;
+                bottom: 0;
+            }
+            &:hover{
+              cursor: pointer;
             }
         }
+        .jst_pro_bTabOn{
+          width:2.8rem;
+          left:1.2rem;
+          z-index: 300;
+        }
         .jst_pro_cTab{
-            width:20%;
+            width:2rem;
             height:100%; 
             position: absolute;
             left:4rem;
-            top:0;           
+            top:0;  
+            overflow: hidden;  
+            background:#27ba79;        
             .jst_pro_tabCon{
                 color:#FFFFFF;
                 position: absolute;
@@ -144,7 +161,7 @@
                 z-index: 100;
                 width: 100%;
                 dt{
-                   font-size: 20px; 
+                   font-size: 0.2rem; 
                    font-weight: bold;
                    margin-bottom: 0.3rem;
                    width: 100%;
@@ -153,7 +170,7 @@
                    text-overflow: ellipsis;
                 }
                 dd{
-                  font-size: 14px;
+                  font-size: 0.2rem;
                   width: 100%;
                   white-space: nowrap;
                   overflow: hidden;
@@ -162,23 +179,33 @@
             }
             i{
                 display:inline-block;
-                width: 1.12rem;
-                height: 1.12rem;
+                width: 1.04rem;
+                height: 1.07rem;
                 background-image: url(../new-images/product/communityIcon.png);
                 background-position: center;
-                background-repeat: repeat;
+                background-repeat: no-repeat;
                 background-size: 100% 100%;
                 position: absolute;
-                right: 0;
-                top: 2.5rem;
+                right: 0.1rem;
+                bottom: 0;
+            }
+            &:hover{
+              cursor: pointer;
             }
         }
+        .jst_pro_cTabOn{
+          width:2.8rem;
+          left:3.2rem;
+          z-index: 300;
+        }
         .jst_pro_dTab{
-            width:20%;
+            width:2rem;
             height:100%; 
             position: absolute;
             left:6rem;
-            top:0;           
+            top:0;   
+            overflow: hidden; 
+            background:#367fec;        
             .jst_pro_tabCon{
                 color:#FFFFFF;
                 position: absolute;
@@ -187,7 +214,7 @@
                 z-index: 100;
                 width: 100%;
                 dt{
-                   font-size: 20px; 
+                   font-size: 0.2rem; 
                    font-weight: bold;
                    margin-bottom: 0.3rem;
                    width: 100%;
@@ -196,7 +223,7 @@
                    text-overflow: ellipsis;
                 }
                 dd{
-                  font-size: 14px;
+                  font-size: 0.14rem;
                   width: 100%;
                   white-space: nowrap;
                   overflow: hidden;
@@ -205,23 +232,33 @@
             }
             i{
                 display:inline-block;
-                width: 1.12rem;
-                height: 1.12rem;
+                width: 0.96rem;
+                height: 0.87rem;
                 background-image: url(../new-images/product/platformIcon.png);
                 background-position: center;
-                background-repeat: repeat;
+                background-repeat: no-repeat;
                 background-size: 100% 100%;
                 position: absolute;
-                right: 0;
-                top: 2.5rem;
+                right: 0.1rem;
+                bottom: 0;
+            }
+            &:hover{
+              cursor: pointer;
             }
         }
+        .jst_pro_dTabOn{
+          width:2.8rem;
+          left:5.2rem;
+          z-index: 300;
+        }
         .jst_pro_eTab{
-            width:20%;
+            width:2rem;
             height:100%;
             position: absolute;
             left:8rem;
-            top:0;            
+            top:0;    
+            overflow: hidden; 
+            background:#2e38b9;        
             .jst_pro_tabCon{
                 color:#FFFFFF;
                 position: absolute;
@@ -230,7 +267,7 @@
                 z-index: 100;
                 width: 100%;
                 dt{
-                   font-size: 20px; 
+                   font-size: 0.2rem; 
                    font-weight: bold;
                    margin-bottom: 0.3rem;
                    width: 100%;
@@ -239,7 +276,7 @@
                    text-overflow: ellipsis;
                 }
                 dd{
-                  font-size: 14px;
+                  font-size: 0.14rem;
                   width: 100%;
                   white-space: nowrap;
                   overflow: hidden;
@@ -248,18 +285,256 @@
             }
             i{
                 display:inline-block;
-                width: 1.12rem;
-                height: 1.12rem;
+                width: 0.92rem;
+                height: 0.87rem;
                 background-image: url(../new-images/product/jstIcon.png);
                 background-position: center;
-                background-repeat: repeat;
+                background-repeat: no-repeat;
                 background-size: 100% 100%;
                 position: absolute;
-                right: 0;
-                top: 2.5rem;
+                right: 0.1rem;
+                bottom: 0;
+            }
+            &:hover{
+              cursor: pointer;
             }
         }          
     }
+}
+
+.jst_pro_tabTitle{
+  width:100%;
+  height:1.45rem;
+  border-bottom:0.01rem solid #d1d1d1;
+  .jst_box{
+    height:100%;
+    .jst_pro_pointerBox{
+      height:0.34rem;
+      position:relative;
+        .jst_pro_pointer1{
+          display:none;
+          width:0.34rem;
+          height:0.34rem;
+          background-image:url(../new-images/product/pointer1.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          position:absolute;
+          left:0;
+          top:0;
+        }
+        .jst_pro_pointer1On{
+          display: block;
+          left:1rem;
+        }
+        .jst_pro_pointer2{
+          display:none;
+          width:0.34rem;
+          height:0.34rem;
+          background-image:url(../new-images/product/pointer2.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          position:absolute;
+          left:0;
+          top:0;
+        }
+        .jst_pro_pointer2On{
+          display: block;
+          left:2.4rem;
+        }
+        .jst_pro_pointer3{
+          display:none;
+          width:0.34rem;
+          height:0.34rem;
+          background-image:url(../new-images/product/pointer3.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          position:absolute;
+          left:0;
+          top:0;
+        }
+        .jst_pro_pointer3On{
+          display: block;
+          left:4.4rem;
+        }
+        .jst_pro_pointer4{
+          display:none;
+          width:0.34rem;
+          height:0.34rem;
+          background-image:url(../new-images/product/pointer4.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          position:absolute;
+          left:0;
+          top:0;
+        }
+        .jst_pro_pointer4On{
+          display: block;
+          left:6.4rem;
+        }
+        .jst_pro_pointer5{
+          display:none;
+          width:0.34rem;
+          height:0.34rem;
+          background-image:url(../new-images/product/pointer5.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          position:absolute;
+          left:0;
+          top:0;
+        }
+        .jst_pro_pointer5On{
+          display: block;
+          left:9rem;
+        }
+    }
+    .jst_pro_title{
+      text-align: center;
+      height:1.11rem;
+      i{
+        display: inline-block;
+        width: 0.38rem;
+        height:0.25rem;
+        margin-right:0.1rem;
+        background-image:url(../new-images/product/b_titleIcon1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        vertical-align: middle;
+        margin-bottom: 0.18rem;
+      }
+      span{
+        display: inline-block;
+        font-size: 0.3rem;
+        font-weight: bold;
+        color:#333333;
+        vertical-align: middle;
+        margin-bottom: 0.18rem;
+      }
+    }
+  }
+}
+
+.jst_pro_box1{
+  .jst_box{
+    .jst_pro_useEnv{
+     
+      .jst_pro_envTitle{
+        text-align: center;
+        i{
+          font-size: 0.2rem;
+          font-weight: bold;
+          font-style:italic;
+        }
+        em{
+          font-size: 0.34rem;
+          font-weight: bold;
+          font-style:italic;
+        }
+        span{
+          font-size: 0.3rem;
+          font-weight: bold;
+        }
+      }
+      .jst_pro_content{
+          height:3.89rem;
+          background-image:url(../new-images/product/b_scene_bg.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 6.57rem 3.89rem;
+          position:relative;
+          .jst_pro_gn5{
+            width:1.18rem;
+            height:1.18rem;   
+            text-align: center;        
+            background-image:url(../new-images/product/round02.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position:absolute;
+            top:1.72rem;
+            left:3.42rem;
+            span{
+              display: block;
+              padding-top:0.2rem;
+              font-size: 0.3rem;
+              font-weight: bold;
+              color:#ffffff;
+              i{
+                display: block;
+                font-size: 0.24rem;
+                font-style:normal;
+              }
+            }
+
+          }
+          .jst_pro_ys5{
+            width:1.18rem;
+            height:1.18rem;
+            text-align: center;
+            background-image:url(../new-images/product/round01.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position:absolute;
+            top:1.72rem;
+            left:5.54rem;
+            span{
+              display: block;
+              padding-top:0.2rem;
+              font-size: 0.3rem;
+              font-weight: bold;
+              color:#ffffff;
+              i{
+                display:block;
+                font-size: 0.24rem;
+                font-style:normal;
+              }
+            }
+          }
+          .jst_pro_gnList{
+            position:absolute;
+            top:1.3rem;
+            left:1.9rem;
+            li{
+                width:1.18rem;
+                height:0.37rem;
+                line-height: 0.37rem;
+                font-size: 0.14rem;
+                text-align: center;
+                color:#ffffff;
+                background-image:url(../new-images/product/round04.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin-bottom:0.06rem;
+            }
+          }
+          .jst_pro_ysList{
+            position:absolute;
+            top:1.3rem;
+            left:7.1rem;
+            li{
+                width:1.18rem;
+                height:0.37rem;
+                line-height: 0.37rem;
+                font-size: 0.14rem;
+                text-align: center;
+                color:#ffffff;
+                background-image:url(../new-images/product/round03.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin-bottom:0.06rem;
+            }
+          }
+      }
+    }
+  }
 }
 
 

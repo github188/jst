@@ -73,6 +73,9 @@
 				background-repeat:no-repeat;
 				background-size:100% 100%;
 			}
+			&:hover{
+				cursor: pointer;
+			}
 		}
 		.jst_pro_community{
 			width:20%;
@@ -96,6 +99,9 @@
 				background-position:center;
 				background-repeat:no-repeat;
 				background-size:100% 100%;
+			}
+			&:hover{
+				cursor: pointer;
 			}
 		}
 		.jst_pro_communityOn{
@@ -127,6 +133,9 @@
 				background-repeat:no-repeat;
 				background-size:100% 100%;
 			}
+			&:hover{
+				cursor: pointer;
+			}
 		}
 		.jst_pro_parkOn{
 			width:25%;
@@ -157,6 +166,9 @@
 				background-repeat:no-repeat;
 				background-size:100% 100%;
 			}
+			&:hover{
+				cursor: pointer;
+			}
 		}
 		.jst_pro_platformOn{
 			width:25%;
@@ -186,6 +198,9 @@
 				background-position:center;
 				background-repeat:no-repeat;
 				background-size:100% 100%;
+			}
+			&:hover{
+				cursor: pointer;
 			}
 		}
     }
