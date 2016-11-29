@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd, img, a, font, em {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "sans-serif", "arial", "宋体";
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  border: 0px;
+}
+
+input, button, textarea {
+  -webkit-appearance: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+input, textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+.l_eft {
+  float: left;
+}
+
+.r_ight {
+  float: right;
+}
+
+.clear:after {
+  content: "";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+}
+
+.n_one {
+  display: none;
+}
+
+.w-160 {
+  width: 160px;
+}
+
+.ml1 {
+  margin-left: 1%;
+}
+
+.ml-0 {
+  margin-left: 0px !important;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-28 {
+  margin-top: 28px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.fs30 {
+  font-size: 30px;
+}
+
+.fc-gray-1 {
+  color: #333;
+}
+
+.l_ine {
+  border-top: 1px solid #93989d;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.box-100 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.jst_box {
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*公共*/
+.jst_head {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 2px 2px #eaeaea;
+}
+
+.jst_logo {
+  padding-top: 20px;
+}
+
+.jst_nav {
+  padding-top: 5px;
+}
+
+.jst_nav ul li {
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.jst_nav ul li a {
+  height: 76px;
+  display: block;
+  font-size: 20px;
+  color: #000;
+  line-height: 76px;
+  padding: 0px 20px;
+}
+
+.jst_nav ul li a:hover {
+  color: #ea5920;
+}
+
+.jst_nav ul li.on a {
+  color: #ea5920;
+  border-bottom: 4px #ea5920 solid;
+}
+
+.jst_bar {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.jst_bar > img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.jst_tit h2 {
+  width: 175px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.jst_tit h2 > span {
+  margin-left: 8px;
+}
+
+/*# sourceMappingURL=public.css.map */
